@@ -1,0 +1,7 @@
+random_num = 25
+
+if random_num % 2 == 0
+  puts "The number is even."
+else
+  puts "The number is odd."
+end
