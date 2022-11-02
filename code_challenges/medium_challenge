@@ -1,0 +1,10 @@
+good_driving_record = true
+age = 24
+
+  if good_driving_record == true && age > 25
+    puts "You can get a discount on your rental car."
+  elsif good_driving_record == true || age > 25
+    puts "You will need to pay full price on your rental car."
+  elsif age < 25 && good_driving_record == false
+    puts "You need to have someone else sign for the rental."
+  end
